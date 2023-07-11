@@ -29,27 +29,10 @@
     border: 0;
     background-color: #E55473;
 }
-.flower-section {
-   
-}
-
 .section-image img{
-    margin-top: 35px;
     height: 658px;
     width: 550px;
 }
-
-
-/* .Featured-Flowers h3,p{
-    align-items: center;
-    text-align: center;
-   
-}
-.Featured-Flowers p{
-    display: flex;
-    align-items: center;
-    width: 400px;
-} */
 .Featured-Flowers{
     margin-top: 60px;
     flex-direction: column;
@@ -78,4 +61,50 @@
     text-align: center;
     border-bottom: 1px solid black;
 }
+.hotdeal-section{
+    padding: 40px 50px;
+    justify-content: space-around;
+    margin: 70px 0px;
+    background-color:  #e5547320;
+    display: flex;
+    align-items: center;
+}
+.hotdeal-section-titel{
+    text-align: center;
+    width: 400px;
+    align-items: center;
+}
+.hotdeal-section-titel h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.hotdeal-section-titel span{
+    color: #E55473;
+}
+.hotdeal-section-titel button{
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 9px 15px;
+    border: 0;
+    background-color: #E55473;
+}
+/* -==--===-==--=-==- */
+.Instagram-titel{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+}
+.all-img{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.all-img img{
+    height: 300px;
+    width: 260px;
+}
+
+
 
