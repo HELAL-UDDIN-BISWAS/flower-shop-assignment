@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flower-section{
+    background-color: #e5547320;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.flower-titel{
+    width: 300px;
+}
+.flower-titel button{
+    padding: 5px;
+    border-radius: 3px;
+    color: #fff;
+    border: 0;
+    background-color: #E55473;
+}
+.flower-section {
+   
+}
+
+.section-image img{
+    margin-top: 35px;
+    height: 400px;
+    width: 400px;
+}
+
+
+/* .Featured-Flowers h3,p{
+    align-items: center;
+    text-align: center;
+   
+}
+.Featured-Flowers p{
+    display: flex;
+    align-items: center;
+    width: 400px;
+} */
+.Featured-Flowers{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.most-flower{
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 70px;
+    display: flex;
+}
+.most-flower img{
+    background-color:  #e5547320;
+    width: 220px;
+    height: 250px;
+    border-radius: 100% 100% 0 0;
+}
+.most-flower h4{
+    align-items: center;
+    margin: 0px 35px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
